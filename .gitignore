@@ -1,0 +1,42 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.obj
+*.jpg
+*.log
+*.png
+*.webp
+*.so
+*.dylib
+*.db
+*.bin
+*.json
+*.yaml
+/release/
+/public/
+*.ini
+vendor
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Development enviroment
+.idea/*
+uploads/*
+app/cmd/conf.ini
+app/cmd/config/config.json
+app/cmd/temp
+app/cmd/logs
+
+# Version control
+version.lock
+
+# Config file
+/statik/
+/app/cmd/temp/
+/app/cmd/static/
+/app/cmd/upload/
